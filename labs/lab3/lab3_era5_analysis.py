@@ -6,8 +6,6 @@ assuming the CSV files are located two folders above the script.
 It performs exploratory data analysis, computes temporal aggregations,
 identifies extreme wind events, and produces visualizations for comparison.
 
-Usage:
-    python lab3_era5_analysis.py
 """
 import os
 import sys
@@ -223,6 +221,16 @@ def main():
     plot_seasonal_comparison(berlin_seasonal_avg, munich_seasonal_avg)
     plot_diurnal_cycle(berlin_df, munich_df)
     plot_wind_direction_histogram(berlin_df, munich_df)
+
+# GitHub: Skyrim repository description
+#
+# Skyrim Repository:
+# Skyrim is an open-source tool that streamlines the process of running advanced weather models 
+# (including Graphcast, Pangu, and Fourcastnet) with minimal configuration. It harnesses initial 
+# condition data from sources like NOAA GFS and ECMWF IFS to produce forecasts and visualizations. 
+# In civil and environmental engineering, Skyrim can incorporate cutting-edge weather 
+# predictions into planning, risk analysis, and infrastructure design, thereby enhancing resilience 
+# and supporting informed decision-making.
 
 if __name__ == "__main__":
     main()
